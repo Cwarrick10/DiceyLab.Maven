@@ -1,15 +1,17 @@
-import org.junit.Before;
+package test;
 
-import static org.junit.Assert;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Assert;
 
 
 public class DiceTest {
 
-    @org.junit.Before
+    @Before
     public void setUp() throws Exception {
     }
 
-    @org.junit.After
+    @After
     public void tearDown() throws Exception {
     }
 }
